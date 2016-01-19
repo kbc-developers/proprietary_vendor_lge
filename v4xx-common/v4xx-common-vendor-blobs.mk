@@ -107,23 +107,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lge/v4xx-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/v4xx-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
+    vendor/lge/v4xx-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
+    vendor/lge/v4xx-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/lge/v4xx-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/v4xx-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/lge/v4xx-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/lge/v4xx-common/proprietary/lib/librpmb.so:system/lib/librpmb.so \
+    vendor/lge/v4xx-common/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
     vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
     vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
     vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lge/v4xx-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
@@ -161,21 +163,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/v4xx-common/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/v4xx-common/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/v4xx-common/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
     vendor/lge/v4xx-common/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
     vendor/lge/v4xx-common/proprietary/lib/liblgewg.so:system/lib/liblgewg.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/lge/v4xx-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/v4xx-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/v4xx-common/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -194,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/v4xx-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/v4xx-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/v4xx-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/v4xx-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/v4xx-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/v4xx-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
